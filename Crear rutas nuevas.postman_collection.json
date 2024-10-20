@@ -1,0 +1,303 @@
+{
+	"info": {
+		"_postman_id": "3cddad81-37d1-45bd-9536-e05a636dc37f",
+		"name": "Modulo 3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39070824"
+	},
+	"item": [
+		{
+			"name": "Tarea 2 ruta",
+			"item": [
+				{
+					"name": "getContacto",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5100/api/contactos/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5100",
+							"path": [
+								"api",
+								"contactos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createContacto",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"messi\",\r\n  \"telefono\": \"899-124-4567\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5100/api/contactos/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5100",
+							"path": [
+								"api",
+								"contactos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteContacto",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5100/api/contactos/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5100",
+							"path": [
+								"api",
+								"contactos",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCliente",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5100/api/clientes/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5100",
+							"path": [
+								"api",
+								"clientes",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createCliente",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nombre\": \"slipknot\",\r\n  \"pais\": \"Taiwan\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5100/api/clientes/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5100",
+							"path": [
+								"api",
+								"clientes",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteCliente",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5100/api/clientes/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5100",
+							"path": [
+								"api",
+								"clientes",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getEmpresa",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5100/api/empresas/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5100",
+							"path": [
+								"api",
+								"empresas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createEmpresa",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"Toyota\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5100/api/empresas/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5100",
+							"path": [
+								"api",
+								"empresas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5100/api/empresas/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5100",
+							"path": [
+								"api",
+								"empresas",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getCatalogo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5100/api/catalogos/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5100",
+							"path": [
+								"api",
+								"catalogos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createCatalogo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"producto\": \"mouse\",\r\n    \"categoria\": \"Periferico\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5100/api/catalogos/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5100",
+							"path": [
+								"api",
+								"catalogos",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteCatalogo",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5100/api/catalogos/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5100",
+							"path": [
+								"api",
+								"catalogos",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
